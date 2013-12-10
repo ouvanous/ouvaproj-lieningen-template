@@ -2,7 +2,7 @@
 layout      : 'default'
 css         : 'form'
 
-title       : 'Validate Form'
+title       : 'Form Validation'
 description : 'A form validation behavior checks user input data against a set of criteria before passing along the data to the server'
 type        : 'UI Behavior'
 ---
@@ -287,6 +287,16 @@ type        : 'UI Behavior'
         <td>on</td>
         <td>submit</td>
         <td>Event used to trigger validation. Can be either <b>submit</b>, <b>blur</b> or <b>change</b>.</td>
+      </tr>
+      <tr>
+        <td>revalidate</td>
+        <td>true</td>
+        <td>If set to true will revalidate fields with errors on input change</td>
+      </tr>
+      <tr>
+        <td>delay</td>
+        <td>true</td>
+        <td>Delay from last typed letter to validate a field when using <code>on: change</code> or when revalidating a field.</td>
       </tr>
       <tr>
         <td>inline</td>

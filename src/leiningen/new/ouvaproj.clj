@@ -15,7 +15,7 @@
   (let [data {:name name
               :sanitized (sanitize name)
               :year (year)
-              :port port}
+              :port (first port)}
         render #((renderer "ouvaproj") % data)]
     (->files data
              [".gitignore"  (render "gitignore")]

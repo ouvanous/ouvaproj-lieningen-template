@@ -26,15 +26,15 @@
     "src",
     "docs"
   ],
-  "version": "0.9.5",
-  "_release": "0.9.5",
+  "version": "0.10.0",
+  "_release": "0.10.0",
   "_resolution": {
     "type": "version",
-    "tag": "0.9.5",
-    "commit": "391e90ba8cf1bcffe47a1b2720a8b41a6717ed34"
+    "tag": "0.10.0",
+    "commit": "fc30ff5cb66e409e350410fb2abc642ea2d90ce1"
   },
   "_source": "git://github.com/jlukic/Semantic-UI.git",
-  "_target": "~0.9.5",
+  "_target": "0.10.0",
   "_originalSource": "semantic",
   "_direct": true
 }
